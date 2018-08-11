@@ -1,31 +1,34 @@
 import React, { Component } from 'react';
 import {Jumbotron} from 'react-bootstrap';
+import YouTube from 'react-youtube';
 class TheBreadTube extends Component {
     render() {
       return (
         <div>
-          <h3> Title Heading </h3>
+          <h3> Chomsky Stuff </h3>
           <br/>
           <div>
               <Jumbotron>
               <div>  
-                
+                <h4> Government In The Future </h4>
                 <br/>
-                Youtube Video 
+                <YouTube videoId="SnfioOtrBro"> Youtube Video </YouTube>
+                
+
               </div>
           </Jumbotron>
           <Jumbotron>
               <div>  
-                
+                <h4> Government In The Future </h4>
                 <br/>
-                Youtube Video 
+                <YouTube videoId="9DvmLMUfGss"> Youtube Video </YouTube>
               </div>
           </Jumbotron>
           <Jumbotron>
               <div>  
-                
+                <h4> Government In The Future </h4>
                 <br/>
-                Youtube Video 
+                <YouTube videoId="XVzvlKrYWaQ"> Youtube Video </YouTube>
               </div>
           </Jumbotron>
           <Jumbotron>
